@@ -4,25 +4,22 @@ body {
     color: #333333;
     margin:0;
     padding:0;
-    
-}
-
-header {
-    background-color: #333333;
-
+    font-size: 18px;
+    line-height: 150%;
 }
 
 h1 {
     color: #eee;
+    background-color: #333333;
+    margin:0;
     font-size: 28px;
     text-align: center;
-    margin:0;
-    padding:.25cm;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2 {
     font-size: 24px;
-
 }
 
 .container {
@@ -30,32 +27,22 @@ h2 {
     margin: 0 auto;
 }
 
-#main-bio {
-    float:left;
-    width: 70%;
-    padding:0;
-}
-
-p {
-    margin-top:0;
-} 
-
-
-#contact-info {
-    float: left;
-    margin: 0;
-}
-
+#main-bio, 
+#contact-info,
 #bio-image {
-    float: left;
-    width: 200px;
-    margin-right: 1cm;
-    margin-top: 0;
+    float: left
 }
 
+#main-bio {
+    width: 70%;
+}
 #contact-info {
-    width: 30%;
-    line-height: 1.5;
+    width:30%;
+}
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 a {
